@@ -1,0 +1,175 @@
+{
+  "0 - InitAnimation": {
+    "Duration": 15,
+    "Entities": {
+      "Player": {
+        "Entity": "Player",
+        "Position": [
+          158.648 , 
+          47.648,  
+          -278.033
+        ],
+        "Actions": [
+
+          {
+            "InitTime": 0.1,
+            "Duration": 15.0,
+            "Move2D": {
+              "positionMove": [
+                158,
+                -285
+              ],
+              "force": 65
+            }
+          },
+          {
+            "InitTime": 1.0,
+            "Duration": 1.0,
+            "MovePlayerCamera": {
+              "CameraOrientation": [
+                90,
+                20
+              ]
+            }
+          }
+        ] 
+      },
+      "Camera": {
+        "Entity": "Camera",
+        "Position": [
+          158.739 , 
+          49.072 ,  
+          -273.081
+        ],
+        "Aim": [
+          158.431015, 
+          47, 
+          -284.818481
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                163,
+                49,  
+                -284
+              ],
+              "speed": 6
+            }
+          },
+          {
+            "InitTime": 2.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                158, 
+                49,
+                -289
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 3.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                154,
+                49,
+                -284
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 4.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                158,
+                50,
+                -263
+              ],
+              "speed": 7
+            }
+          }
+
+
+        ]
+      },
+      "Camera1": {
+        "Entity": "Camera",
+        "Position": [
+          155,
+          49,
+          -287
+        ],
+        "Aim": [
+          158.431015, 
+          47, 
+          -284.818481
+        ],
+        "Actions": [
+          {
+            "InitTime": 9.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                155,
+                49,
+                -287
+              ],
+              "speed": 0
+            }
+           
+          }
+
+
+        ]
+      },
+      "Text": {
+        "Entity": "HudElement",
+        "Position": [
+          0.5,
+          0.5,
+          0
+        ],
+        
+        "Actions":  [
+          {
+            "InitTime": 11.0,
+            "Duration": 3.0,
+            "DrawText":
+            {
+              "Position":
+              [
+                0.5,
+                0.2
+
+              ],
+              "Text": "Has obtenido Arco"
+            }
+           
+          }
+
+
+        ]
+      },
+      "SFX": {
+        "Entity": "SoundElement",
+        "Actions": [
+          {
+            "InitTime": 11.0,
+            "Duration": 0.1,
+            "SoundPlay": {
+              "SoundPath": "Effects/save_object"
+            }
+          }
+        ]
+      }
+
+    }
+  }
+}

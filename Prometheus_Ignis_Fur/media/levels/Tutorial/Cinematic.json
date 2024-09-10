@@ -1,0 +1,89 @@
+{
+  "0 - InitAnimation": {
+    "Duration": 6,
+    "Entities": {
+      "Player": {
+        "Entity": "Player",
+        "Position": [
+          29,
+          15,
+          0
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 3.0,
+            "Move2D": {
+              "positionMove": [
+                32,
+                0
+              ],
+              "force": 50
+            }
+          },
+          {
+            "InitTime": 0.1,
+            "Duration": 1.0,
+            "MovePlayerCamera": {
+              "CameraOrientation": [
+                180,
+                20
+              ]
+            }
+          }
+        ]
+      },
+      "Camera": {
+        "Entity": "Camera",
+        "Position": [
+          34,
+          15,
+          2
+        ],
+        "Aim": [
+          30,
+          15.5,
+          0
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                28,
+                15,
+                0
+              ],
+              "speed": 2.5
+            }
+          },
+          {
+            "InitTime": 3.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                29,
+                15,
+                0
+              ],
+              "speed": 0.5
+            }
+          },
+          {
+            "InitTime": 6.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                26,
+                15,
+                0
+              ],
+              "speed": 4
+            }
+          }
+        ]
+      }
+    }
+  }
+}

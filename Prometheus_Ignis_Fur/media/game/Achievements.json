@@ -1,0 +1,23 @@
+[
+	{
+		"AchievementID" : "GrassHopper",
+		"CurrentJumps" : 24,
+		"Date" : "08/07/2023 13:30:46",
+		"Obtained" : false,
+		"Time" : 8
+	},
+	{
+		"AchievementID" : "GettingStarted",
+		"Date" : "",
+		"Obtained" : false,
+		"Time" : 0
+	},
+	{
+		"AchievementID" : "Perseverance",
+		"CurrentDeaths" : 45,
+		"Date" : "",
+		"Obtained" : false,
+		"Time" : 8
+	}
+
+]

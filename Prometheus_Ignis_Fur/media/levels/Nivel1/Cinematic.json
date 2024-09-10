@@ -1,0 +1,163 @@
+{
+  "0 - InitAnimation": {
+    "Duration": 15,
+    "Entities": {
+      "Player": {
+        "Entity": "Player",
+        "Position": [
+          -289.808,
+          17.051,
+          -621.83
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 15.0,
+            "Move2D": {
+              "positionMove": [
+                -290.454,
+                -628.156
+              ],
+              "force": 65
+            }
+          },
+          {
+            "InitTime": 1.0,
+            "Duration": 1.0,
+            "MovePlayerCamera": {
+              "CameraOrientation": [
+                90,
+                20
+              ]
+            }
+          }
+        ]
+      },
+      "Camera": {
+        "Entity": "Camera",
+        "Position": [
+          -290,
+          17,
+          -617.27
+        ],
+        "Aim": [
+          -290.326,
+          17.5,
+          -628.935
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -286,
+                17,
+                -636.27
+              ],
+              "speed": 6
+            }
+          },
+          {
+            "InitTime": 2.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -290,
+                17,
+                -634.27
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 3.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -294,
+                17,
+                -630.27
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 4.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -290,
+                20,
+                -619.27
+              ],
+              "speed": 4
+            }
+          }
+        ]
+      },
+      "Camera1": {
+        "Entity": "Camera",
+        "Position": [
+          -293,
+          18.0,
+          -631.87
+        ],
+        "Aim": [
+          -290.575,
+          17.5,
+          -628.247
+        ],
+        "Actions": [
+          {
+            "InitTime": 9.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -293,
+                18.0,
+                -631.87
+              ],
+              "speed": 0
+            }
+          }
+        ]
+      },
+      "Text": {
+        "Entity": "HudElement",
+        "Position": [
+          0.5,
+          0.5,
+          0
+        ],
+        "Actions": [
+          {
+            "InitTime": 11.0,
+            "Duration": 3.0,
+            "DrawText":
+            {
+              "Position":
+              [
+                0.5,
+                0.2
+              ],
+              "Text": "Has obtenido Dash"
+            }
+          }
+        ]
+      },
+      "SFX": {
+        "Entity": "SoundElement",
+        "Actions": [
+          {
+            "InitTime": 11.0,
+            "Duration": 0.1,
+            "SoundPlay": {
+              "SoundPath": "Effects/save_object"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

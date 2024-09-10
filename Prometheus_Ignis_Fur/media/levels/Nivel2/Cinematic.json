@@ -1,0 +1,177 @@
+{
+  "0 - InitAnimation": {
+    "Duration": 15,
+    "Entities": {
+      "Player": {
+        "Entity": "Player",
+        "Position": [
+          -311.158, 
+          57.694035, 
+          -91
+        ],
+        "Actions": [
+
+          {
+            "InitTime": 0.1,
+            "Duration": 15.0,
+            "Move2D": {
+              "positionMove": [
+                -311,
+                -86
+              ],
+              "force": 65
+            }
+          },
+          {
+            "InitTime": 1.0,
+            "Duration": 1.0,
+            "MovePlayerCamera": {
+              "CameraOrientation": [
+                90,
+                20
+              ]
+            }
+          }
+        ] 
+      },
+      "Camera": {
+        "Entity": "Camera",
+        "Position": [
+          -311,
+          57.5,
+          -96
+        ],
+        "Aim": [
+          -311.039398, 
+          57.594035, 
+          -85.152428
+        ],
+        "Actions": [
+          {
+            "InitTime": 0.1,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -315,
+                57,
+                -85
+              ],
+              "speed": 6
+            }
+          },
+          {
+            "InitTime": 2.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -311,
+                57,
+                -79
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 3.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -307,
+                57,
+                -85
+              ],
+              "speed": 4
+            }
+          },
+          {
+            "InitTime": 4.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -311,
+                60,
+                -94
+              ],
+              "speed": 4
+            }
+          }
+
+
+        ]
+      },
+      "Camera1": {
+        "Entity": "Camera",
+        "Position": [
+          -308,
+          58,
+          -82
+        ],
+        "Aim": [
+          -311.039398, 
+          57.594035, 
+          -85.152428
+        ],
+        "Actions": [
+          {
+            "InitTime": 9.0,
+            "Duration": 3.0,
+            "CameraMove": {
+              "positionMove": [
+                -308,
+                58,
+                -82
+              ],
+              "speed": 0
+            }
+           
+          }
+
+
+        ]
+      },
+      "Text": {
+        "Entity": "HudElement",
+        "Position": [
+          0.5,
+          0.5,
+          0
+        ],
+        
+        "Actions":  [
+          {
+            "InitTime": 11.0,
+            "Duration": 3.0,
+            "DrawText":
+            {
+              "Position":
+              [
+                0.5,
+                0.2
+
+              ],
+              "Text": "Has obtenido Doble Salto"
+
+
+            }
+           
+          }
+
+
+        ]
+      },
+      "SFX": {
+        "Entity": "SoundElement",
+        "Actions": [
+          {
+            "InitTime": 11.0,
+            "Duration": 0.1,
+            "SoundPlay": {
+              "SoundPath": "Effects/save_object"
+            }
+          }
+        ]
+      }
+
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "condition_variable": "cpp",
+        "cstdint": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "ostream": "cpp",
+        "semaphore": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "stop_token": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "cinttypes": "cpp",
+        "typeinfo": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "codecvt": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "iomanip": "cpp",
+        "*.rh": "cpp",
+        "*.inc": "cpp",
+        "*.tpp": "cpp",
+        "cfenv": "cpp",
+        "complex": "cpp",
+        "netfwd": "cpp",
+        "filesystem": "cpp",
+        "csignal": "cpp",
+        "strstream": "cpp",
+        "bitset": "cpp",
+        "source_location": "cpp",
+        "ranges": "cpp",
+        "shared_mutex": "cpp",
+        "span": "cpp",
+        "typeindex": "cpp",
+        "*.ipp": "cpp",
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "format": "cpp"
+=======
+        "charconv": "cpp",
+        "forward_list": "cpp",
+        "format": "cpp",
+        "stdfloat": "cpp"
+>>>>>>> feature/achievments
+=======
+        "format": "cpp",
+        "charconv": "cpp",
+        "forward_list": "cpp",
+        "stdfloat": "cpp"
+>>>>>>> feature/fixBillboard
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/whispywoods/Escritorio/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/whispywoods/Escritorio/sphynx_project/Prometheus_Ignis_Fur/game",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/whispy/Escritorio/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/whispy/Escritorio/sphynx_project/Prometheus_Ignis_Fur/game",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/alejandromr/Escritorio/abp/sphynx_proyect/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/alejandromr/Escritorio/abp/sphynx_proyect/sphynx_project/Prometheus_Ignis_Fur/game",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/cpc/spynx/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/cpc/spynx/sphynx_project/Prometheus_Ignis_Fur/game",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/lucilavs/Escritorio/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/lucilavs/Escritorio/sphynx_project/Prometheus_Ignis_Fur/build/Prometheus_Ignis_Fur",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/lucilavs/Escritorio/sphynx_project/Prometheus_Ignis_Fur",
+            "binaryPath": "/home/lucilavs/Escritorio/sphynx_project/Prometheus_Ignis_Fur/Prometheus_Ignis_Fur",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/alejandromr/Escritorio/abp/clone2/sphynx_project/Prometheus_Ignis_Fur/build",
+            "binaryPath": "/home/alejandromr/Escritorio/abp/clone2/sphynx_project/Prometheus_Ignis_Fur/build/Prometheus_Ignis_Fur",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.configurations": [
+        {
+            "name": "Make",
+            "makeArgs": []
+        },
+        {
+            "name": "Debug",
+            "makeArgs": []
+        }
+    ]
+}

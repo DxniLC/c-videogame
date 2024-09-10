@@ -1,0 +1,261 @@
+{
+    "Tutorial": {
+        "LevelPath": "media/levels/Tutorial/Tutorial.json",
+        "Meshes": [
+            {
+                "mesh": "media/levels/Tutorial/BaseTutorial.obj",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": false
+            },
+            {
+                "mesh": "media/levels/Tutorial/TutorialInstances.json",
+                "shader": [
+                    "media/shaders/InstancingShader.vert",
+                    "media/shaders/Toon/Toon_Outline.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true
+            },
+            {
+                "mesh": "media/levels/Tutorial/TutorialVegetacion.json",
+                "shader": [
+                    "media/shaders/VegetationInstance.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true,
+                "Vegetation": [
+                    1,
+                    0,
+                    0.20
+                ]
+            }
+        ],
+        "Cinematic": "media/levels/Tutorial/Cinematic.json",
+        "MusicPath": "Music/ambient",
+        "AmbientPath": "Ambient/forest",
+        "SunLight": {
+            "Direction": [
+                0.0,
+                -0.5,
+                -0.5
+            ],
+            "Ambient": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Diffuse": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "SkyBox": [
+            "media/textures/SkyBox/Day/right.png",
+            "media/textures/SkyBox/Day/left.png",
+            "media/textures/SkyBox/Day/top.png",
+            "media/textures/SkyBox/Day/bottom.png",
+            "media/textures/SkyBox/Day/front.png",
+            "media/textures/SkyBox/Day/back.png"
+        ]
+    },
+    "Inicio": {
+        "LevelPath": "media/levels/Inicio/Inicio.json",
+        "Meshes": [
+            {
+                "mesh": "media/levels/Inicio/BaseInicio.obj",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": false
+            }
+        ],
+        "MusicPath": "",
+        "AmbientPath": "Ambient/mountain",
+        "OnCave": 0.5,
+        "SkyBox": [
+            "media/textures/SkyBox/Night/right.png",
+            "media/textures/SkyBox/Night/left.png",
+            "media/textures/SkyBox/Night/top.png",
+            "media/textures/SkyBox/Night/bottom.png",
+            "media/textures/SkyBox/Night/front.png",
+            "media/textures/SkyBox/Night/back.png"
+        ]
+    },
+    "Nivel1": {
+        "LevelPath": "media/levels/Nivel1/Nivel1.json",
+        "Meshes": [
+            {
+                "mesh": "media/levels/Nivel1/BaseNivel1.obj",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": false
+            },
+            {
+                "mesh": "media/levels/Nivel1/Nivel1Instances.json",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon_Outline.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true
+            },
+            {
+                "mesh": "media/levels/Nivel1/Nivel1Vegetacion.json",
+                "shader": [
+                    "media/shaders/VegetationInstance.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true,
+                "Vegetation": [
+                    1,
+                    0,
+                    0.20
+                ]
+            }
+        ],
+        "MapPath":"media/levels/Nivel1/mapa.xml",
+        "Cinematic": "media/levels/Nivel1/Cinematic.json",
+        "MusicPath": "Music/ambient",
+        "AmbientPath": "",
+        "SunLight": {
+            "Direction": [
+                0.0,
+                -0.5,
+                -0.5
+            ],
+            "Ambient": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Diffuse": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "SkyBox": [
+            "media/textures/SkyBox/Day/right.png",
+            "media/textures/SkyBox/Day/left.png",
+            "media/textures/SkyBox/Day/top.png",
+            "media/textures/SkyBox/Day/bottom.png",
+            "media/textures/SkyBox/Day/front.png",
+            "media/textures/SkyBox/Day/back.png"
+        ]
+    },
+    "Nivel2": {
+        "LevelPath": "media/levels/Nivel2/Nivel2.json",
+        "Meshes": [
+            {
+                "mesh": "media/levels/Nivel2/BaseNivel2.obj",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": false
+            },
+            {
+                "mesh": "media/levels/Nivel2/Nivel2Instances.json",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon_Outline.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true
+            }
+        ],
+        "Cinematic": "media/levels/Nivel2/Cinematic.json",
+        "ParticleEnv": "Snow",
+        "MusicPath": "Music/ambient",
+        "AmbientPath": "",
+        "SunLight": {
+            "Direction": [
+                0.0,
+                -0.5,
+                -0.5
+            ],
+            "Ambient": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Diffuse": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "SkyBox": [
+            "media/textures/SkyBox/Day/right.png",
+            "media/textures/SkyBox/Day/left.png",
+            "media/textures/SkyBox/Day/top.png",
+            "media/textures/SkyBox/Day/bottom.png",
+            "media/textures/SkyBox/Day/front.png",
+            "media/textures/SkyBox/Day/back.png"
+        ]
+    },
+    "Nivel3": {
+        "LevelPath": "media/levels/Nivel3/Nivel3.json",
+        "Meshes": [
+            {
+                "mesh": "media/levels/Nivel3/BaseNivel3.obj",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": false
+            },
+            {
+                "mesh": "media/levels/Nivel3/Nivel3Instances.json",
+                "shader": [
+                    "media/shaders/VertexShader.vert",
+                    "media/shaders/Toon/Toon_Outline.frag"
+                ],
+                "IsLightShader": true,
+                "HasInstances": true
+            }
+        ],
+        "Cinematic": "media/levels/Nivel3/Cinematic.json",
+        "MusicPath": "Music/ambient",
+        "AmbientPath": "",
+        "SunLight": {
+            "Direction": [
+                0.0,
+                -0.5,
+                -0.5
+            ],
+            "Ambient": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Diffuse": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "SkyBox": [
+            "media/textures/SkyBox/Day/right.png",
+            "media/textures/SkyBox/Day/left.png",
+            "media/textures/SkyBox/Day/top.png",
+            "media/textures/SkyBox/Day/bottom.png",
+            "media/textures/SkyBox/Day/front.png",
+            "media/textures/SkyBox/Day/back.png"
+        ]
+    }
+}

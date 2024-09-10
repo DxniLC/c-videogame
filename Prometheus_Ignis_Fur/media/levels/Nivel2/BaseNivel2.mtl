@@ -1,0 +1,192 @@
+# Blender 3.3.1 MTL File: 'Nivel2.blend'
+# www.blender.org
+
+newmtl Ice
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex.png
+
+newmtl Ice.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex.png
+
+newmtl Ice.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex.png
+
+newmtl Ice.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex.png
+
+newmtl Ice.005
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex.png
+
+newmtl Ice2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/ice_cube_tex2.png
+
+newmtl circle
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_circle_n.png
+
+newmtl curva_n
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_curve_n.png
+
+newmtl grises
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/grises.png
+
+newmtl pared_nev
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/pared_nev.png
+
+newmtl pared_nev.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/pared_nev.png
+
+newmtl pared_nieve
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/monton_tex_n.png
+
+newmtl recto
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_rn.png
+
+newmtl setaL
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/setalila_tex.png
+
+newmtl vacio
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_vacio_n.png
+
+newmtl vacio.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_vacio_n.png
+
+newmtl vacio.018
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_vacio_n.png
+
+newmtl vacio.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/path_vacio_n.png
+
+newmtl valla
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/lucse/OneDrive/Documents/Mapa/textures/Environment/vallas_tex.png
